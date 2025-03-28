@@ -1,0 +1,32 @@
+{
+  "version": "2022.10.1",
+  "name": "Sofascore",
+  "description": "Sports app for everyone – whether you are a casual or hardcore fan. From live scores to statistics & player analysis, we cover 20 sports (football, basketball, tennis, table tennis, baseball) & more than 5000 leagues.",
+  "type": "web",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/images/icon56.png",
+    "112": "/images/icon112.png"
+  },
+  "developer": {
+    "name": "Sofascore",
+    "url": "https://corporate.sofascore.com/"
+  },
+  "locales": {
+    "en-GB": {
+      "name": "Sofascore",
+      "subtitle": "Sofascore - Live score app",
+      "description": "Sports app for everyone – whether you are a casual or hardcore fan. From live scores to statistics & player analysis, we cover 20 sports (football, basketball, tennis, table tennis, baseball) & more than 5000 leagues."
+    }
+  },
+  "categories": ["sports"],
+  "default_locale": "en-GB",
+  "fullscreen": "true",
+  "dependencies": {
+    "ads-sdk": "1.4.1"
+  },
+  "permissions": {
+    "mobiledata": {},
+    "wifidata": {}
+  }
+}
